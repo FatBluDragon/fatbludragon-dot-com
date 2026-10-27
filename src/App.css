@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+:root {
+	--primary-bg-1: #fff6dd;
+	--primary-bg-2: #f8d5bd;
+	--primary-bg-3: #ecbf9b;
+	--primary-1: #6b544a;
+	--primary-2: #3f2b23;
+	--primary-3: #160b07;
+}
+
+body {
+	margin: 0;
+	color: var(--primary-3);
+	font-family: sans-serif;
+}
+
+
+.welcome {
+	height: 960px;
+	width: 100vw;
+	text-align: center;
+	background-image: url('./assets/background.png');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.welcomeText {
+	color: var(--primary-bg-1);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
+
+.welcome h1 {
+	font-family: 'Chewy', system-ui;
+	font-size: 3em;
+	margin: 1;
+}
+
+.welcome p {
+	font-family: 'Chewy', system-ui;
+	font-size: 1em;
+	margin: 0;
+}
+
+.container {
+	z-index: 1;
+	box-shadow: 1px 25px 45px 33px rgba(0,0,0,0.75);
+	margin: auto;
+	padding: 64px;
+	background-image: url('./assets/Background\ Texture.png');
+}
+
+.introduction {
+	max-width: 960px;
+	display: flex;
+	padding: 32px;
+	margin: 240px auto;
+	background-color: var(--primary-bg-1);
+	justify-content: space-between;
+	border-radius: 32px;
+	box-sizing: border-box;
+}
+
+
+.info {
+	width: 320px;
+}
+
+.introduction img {
+	border-radius: 16px;
+}
+
+.commContainer {
+	margin: auto;
+	max-width: 960px;
+	transition: 0.5s;
+}
+
+.tos {
+	width: 100%;
+	text-align: center;
+	background-color: var(--primary-bg-3);
+	display: block;
+	padding: 16px 0;
+	margin: 32px 0;
+	border-radius: 32px;
+	transition: 0.5s;
+	box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.tos:hover {
+	transform: scale(1.02)
+}
+
+.gallery {
+	width: 100%;
+	height: 320px;
+	text-align: center;
+	background-image: url('./assets/Gallery\ Icons.png');
+	background-size: cover;
+	display: block;
+	padding: 16px 0;
+	margin: 32px 0;
+	border-radius: 32px;
+	transition: 0.5s;
+	box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.gallery:hover {
+	transform: scale(1.02)
+}
+
+.items {
+	display: flex;
+	gap: 32px;
+	height: 320px;
+}
+
+.items div {
+	transition: 0.5s;
+}
+
+.items div:hover {
+	transform: scale(1.02)
+}
+
+.commissions {
+	flex-grow: 1;
+	background-image: url('./assets/Commission\ Icons.png');
+	background-size: cover;
+	width: 50%;
+	height: 100%;
+	border-radius: 32px;
+	text-align: center;
+	box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.ych {
+	flex-grow: 1;
+	background-color: var(--primary-bg-2);
+	width: 50%;
+	border-radius: 32px;
+	text-align: center;
+	background-image: url('./assets/YCH\ Icons.png');
+	background-size: cover;
+	box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+}
