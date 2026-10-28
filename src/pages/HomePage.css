@@ -20,7 +20,7 @@ body {
 	height: 960px;
 	width: 100vw;
 	text-align: center;
-	background-image: url('./assets/background.png');
+	background-image: url('../assets/background.png');
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -51,7 +51,7 @@ body {
 	box-shadow: 1px 25px 45px 33px rgba(0,0,0,0.75);
 	margin: auto;
 	padding: 64px;
-	background-image: url('./assets/Background\ Texture.png');
+	background-image: url('../assets/Background\ Texture.png');
 }
 
 .introduction {
@@ -100,7 +100,7 @@ body {
 	width: 100%;
 	height: 320px;
 	text-align: center;
-	background-image: url('./assets/Gallery\ Icons.png');
+	background-image: url('../assets/Gallery\ Icons.png');
 	background-size: cover;
 	display: block;
 	padding: 16px 0;
@@ -130,7 +130,7 @@ body {
 
 .commissions {
 	flex-grow: 1;
-	background-image: url('./assets/Commission\ Icons.png');
+	background-image: url('../assets/Commission\ Icons.png');
 	background-size: cover;
 	width: 50%;
 	height: 100%;
@@ -145,7 +145,7 @@ body {
 	width: 50%;
 	border-radius: 32px;
 	text-align: center;
-	background-image: url('./assets/YCH\ Icons.png');
+	background-image: url('../assets/YCH\ Icons.png');
 	background-size: cover;
 	box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
 }
