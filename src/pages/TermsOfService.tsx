@@ -3,7 +3,7 @@ import './TermsOfService.css'
 export function TermsOfService() {
     return (
         <>
-            <div className="container">
+            <div className="tos_container">
                 <div className="tos__main">
                     <h1>Terms of Service</h1>
                     <p>

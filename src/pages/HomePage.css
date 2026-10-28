@@ -1,24 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
-
-:root {
-	--primary-bg-1: #fff6dd;
-	--primary-bg-2: #f8d5bd;
-	--primary-bg-3: #ecbf9b;
-	--primary-1: #6b544a;
-	--primary-2: #3f2b23;
-	--primary-3: #160b07;
-}
-
-body {
-	margin: 0;
-	color: var(--primary-3);
-	font-family: sans-serif;
-}
-
-
 .welcome {
 	height: 960px;
-	width: 100vw;
+	width: 100%;
 	text-align: center;
 	background-image: url('../assets/background.png');
 	background-attachment: fixed;

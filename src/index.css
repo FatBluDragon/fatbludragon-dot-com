@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+:root {
+	--primary-bg-1: #fff6dd;
+	--primary-bg-2: #fcdecb;
+	--primary-bg-3: #fbd4b4;
+	--primary-bg-4: #f2c5a1;
+	--primary-bg-5: #e9b78e;
+	--primary-1: #6b544a;
+	--primary-2: #3f2b23;
+	--primary-3: #160b07;
+}
+
+body {
+	margin: 0;
+    background-color: var(--primary-bg-1);
+	color: var(--primary-3);
+	font-family: sans-serif;
+}
