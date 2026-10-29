@@ -1,6 +1,6 @@
 import { HomePage } from './pages/HomePage.tsx';
-import { TermsOfService } from './pages/TermsOfService.tsx'
-import { Routes, Route } from 'react-router'
+import { TermsOfService } from './pages/TermsOfService.tsx';
+import { Routes, Route } from 'react-router';
 import { TosTest } from './pages/TosTest.tsx';
 
 function App() {
