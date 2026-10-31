@@ -29,42 +29,6 @@ export function TermsOfService() {
                             ! DO NOT SKIP THIS PART !<br />
                             I'm legally required to add your legal name and address in the invoice. Otherwise, I can't send you one at all. No physical mail or message will be sent and the data stays on PayPal only.
                         </div>
-                        <div className="tos__detail">
-                            <div>
-                                <p><i>
-                                    [NOTE] Apologies in advance for the upcoming inconvenience. I tried my best to figure out a way to avoid it and keep us anonymous but no matter what I try, my hands are legally tied.
-                                </i></p>
-                                <p>
-                                    As a German freelance artist, I'm obligated to include both our legal names and addresses to the invoice. As it is written in <a href="https://www.gesetze-im-internet.de/ustg_1980/__14.html">section 14, subsection 4 of USTG</a>, only an invoice with said info is legal. This will also be used to calculate any necessary VAT or sales tax. It'll be included in the final price thus your total won't change.
-                                </p>
-                                <p><i>
-                                    [NOTE] Technically, only your real name (already visible on Paypal) and Country + State must be accurate. Since I don't send anything physical, the address could be a fake or randomized one and I'd be none the wiser. Obviously, I'd advise you against that because of legal repercussions but it's worth warning about the loophole
-                                </i></p>
-                                <p>
-                                    The following data is necessary for the invoice
-                                </p>
-                                <ul>
-                                    <li>full name</li>
-                                    <li>online alias</li>
-                                    <li>e-mail</li>
-                                </ul>
-                                <ul>
-                                    <li>street, apt.</li>
-                                    <li>city, postal code</li>
-                                    <li>State, Country</li>
-                                </ul>
-                                <p>
-                                    The data will be saved on Paypal only and you'll receive the invoice via e-mail. No physical invoice or message will be sent.
-                                </p>
-                                <p><i>
-                                    [NOTE] Please send me the info AFTER the commission details have been settled. Once I sent the invoice, I'd urge you to delete the message containing the sensitive info. Telegram enables end-to-end encryption so if you prefer internet safety, we can share the info there. (Telegram: @FatBluDragon)
-                                </i></p>
-                                <p><i>
-                                    Lastly, my own personal info will be revealed, too, so let's agree to ignore both our sensitive data for anonymity's sake. The nickname is used to address you as such instead of your real name. Also, please don't call me by the name on the invoice but as Fergus Sullivan.
-                                </i></p>
-                            </div>
-                        </div>
-                        <button type="button" className="tos__collapse">open</button>
                     </div>
                     <div className="tos__section">  <h2>Commission Progress</h2>
                         <div className="tos__tldr">
@@ -89,19 +53,6 @@ export function TermsOfService() {
                             </ol>
                             <p>
                                 If you insist on a revision, which could have been requested at an earlier step, I may demand a compensation fee, proportional to the progress lost. If feedback for a stage is skipped on my end, you may request revisions that would have been appropriate at the skipped step for free. Errors on my end can be revised without any compensation fee.
-                            </p>
-                            <p><i>
-                                [NOTE] For example, if I skip feedback for lineart and color/shading, you can still ask for revisions of details, lighting, or color theme without a compensation fee. An example for an error could be drawing the characters with 5 fingers while it's supposed to be 4 or changing the shape of a character's snout.
-                            </i></p>
-                            <p>
-                                YCH commissions provide feedback options at the sketch phase and finalization. Only revisions necessary for proper "character replacement" are free of charge.
-                            </p>
-                            <p><i>
-                                [NOTE] YCH are finished way faster than regular comms and allowing feedback at the sketch phase and finalization turns out to be the perfect middle ground. You can still ask for changes if the lighting, coloring, or details of your character seems off. However, the composition, pose, background, lighting, etc. provided by the base are unchangable unless discussed otherwise.
-                            </i></p>
-                        </div></div>
-                        <button type="button" className="tos__collapse">show</button>
-                    </div>
                     <div className="tos__section">  <h2>YCH and Perma-open Commissions</h2>
                         <div className="tos__tldr">
                             YCHs and perma-open commissions can be ordered at any time. Special rules for their process apply. Regular commissions may be turned into a YCH in exchange for benefits discussed during the commission briefing.

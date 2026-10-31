@@ -1,0 +1,42 @@
+.tos_section {
+	background-color: var(--primary-bg-2);
+	width: 100%;
+}
+
+.tos_content {
+	padding: 0 32px;
+	padding-bottom: 32px;
+	text-align: justify;
+}
+
+.tos_content br {
+	margin: 10px
+}
+
+.tos_title {
+	display: flex;
+	justify-content: space-between;
+	padding: 16px
+
+}
+
+.tos_title h1 {
+align-self: flex-end;
+margin: 0
+}
+
+.tos_tldr_button {
+	cursor: pointer;
+	font-size: 1em;
+	position: relative;
+	align-self: flex-end
+}
+
+.tos_tldr_button p {
+	margin: 0;
+	font-weight: bold;
+	color: var(--primary-1);
+	border: 3px solid var(--primary-1);
+	border-radius: 8px;
+	padding: 0.2em;
+}

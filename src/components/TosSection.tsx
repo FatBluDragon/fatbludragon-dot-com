@@ -1,63 +1,32 @@
-import { useEffect, useState, useRef, ReactNode } from "react";
+import {type ReactNode} from 'react'
+import { TosSectionTldr } from './TosSectionTldr'
 import './TosSection.css'
 
 type SectionProps = {
     title: string;
     tldr: string;
-    details: ReactNode
-}
-
-function TosSectionTldr({text}: {text: string}) {
-	return(
-		<>
-			<div className="tldr_popup_window">
-				<p>{text}</p>
-			</div>
-		</>
-	)
+    content: ReactNode 
+    isOpen: boolean
+    onOpen: () => void
 }
 
 // Creates a section with title, tldr, and details
-export function TosSection({title, tldr, details}: SectionProps) {
-    const [tldrPressed, setTldrPressed] = useState(false)
-    const tldrRef = useRef(null)
-
-/*    const TosSectionTldr = () => {
-        return(
-            <>
-                <div className="tldr_popup_window" ref={tldrRef}>
-                    <p>{tldr}</p>
-                </div>
-            </>
-	)}*/
-
-    useEffect(() => {
-        const handler = (event) => {
-            console.log("click")
-            if(!tldrRef.current?.contains(event.target)) {
-                setTldrPressed(false)
-            }
-        }
-
-        document.addEventListener("click", handler)
-        return () => {
-            document.removeEventListener("click", handler)
-        }
-
-    }, [tldrPressed, tldrRef])
+export function TosSection({title, tldr, content, isOpen, onOpen}: SectionProps) {
 
 
+
+    // create tldr button and show tldr content if tldrPressed is true
     return (
         <div className="tos_section">
             <div className="tos_title">
                 <h1>{title}</h1>
-                <div className="tos_tldr_button" ref={tldrRef} onClick={() => setTldrPressed(true)}>
+                <div className="tos_tldr_button" onClick={onOpen}>
                     <p>TL;DR</p>
                 </div>
             </div>
-                {tldrPressed && <TosSectionTldr text={tldr} reference={tldrRef}/>}
+                {isOpen && <TosSectionTldr text={tldr} isOpen={isOpen} />}
             <div className="tos_content">
-                {details}
+                {content}
             </div>
         </div>
     )
