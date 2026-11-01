@@ -22,3 +22,9 @@
 i {
 	font-weight: bold
 }
+
+.tos_background {
+	position: absolute;
+	width: 100%;
+	background-image: url(../assets/Background\ Texture.png)
+}
