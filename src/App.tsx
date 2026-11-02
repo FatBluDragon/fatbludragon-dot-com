@@ -1,13 +1,15 @@
 import { HomePage } from './pages/HomePage.tsx';
 import { Routes, Route } from 'react-router';
-import { TosTest } from './pages/TosTest.tsx';
+import { TermsOfService } from './pages/TermsOfService.tsx';
+import { Gallery } from './pages/Gallery.tsx'
 
 function App() {
 
   return (
     <Routes>
       <Route index element={<HomePage />} />
-      <Route path="test" element={<TosTest />} />
+      <Route path="terms-of-service" element={<TermsOfService />} />
+      <Route path="gallery" element={<Gallery />} />
     </Routes>
   )  
 }

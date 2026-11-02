@@ -1,8 +1,10 @@
 import './HomePage.css'
+import { Link } from 'react-router'
 
 export function HomePage() {
     return (
         <>
+            <title>FBD - Home</title>
             <div className='welcome'>
                 <div className='welcomeText'>
                 <h1>Welcome to the Hungry Dragon Inn!</h1>
@@ -19,20 +21,20 @@ export function HomePage() {
                 <img src="https://cdn.bsky.app/img/avatar/plain/did:plc:7kpp5bimw4w7o7hwrmb6whxi/bafkreiczrlhv342uf4rat5vrw72slpb3a5eimjyp4ttxenpa57ogdyhk7y" width='320' alt="" />
                 </div>
                 <div className='commContainer'>
-                <div className='gallery' onClick={() => {alert('clicked');}}>
+                <div className='gallery' onClick={() => {window.open("https://www.furaffinity.net/gallery/fatbludragon/");}}>
                     <h1>Gallery</h1>
                 </div>
                 <div className='items'>
-                    <div className='commissions'>
+                    <div className='commissions' onClick={() => {window.open('https://www.furaffinity.net/commissions/fatbludragon/');}}>
                     <h1>Commissions</h1>
                     </div>
-                    <div className='ych'>
+                    <div className='ych' onClick={() => {window.open('https://www.furaffinity.net/gallery/fatbludragon/folder/1259215/YCH-Showcase');}}>
                     <h1>YCH</h1>
                     </div>
                 </div>
-                <div className='tos' onClick={() => {window.open('https://fatbludragon.com/terms-of-service');}}>
+                <Link to="/terms-of-service" className='tos'>
                     <h1>Terms of Service</h1>
-                </div>
+                </Link>
                 </div>
             </div>
         </>

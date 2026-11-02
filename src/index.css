@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Jost:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@100..800&display=swap');
+/* Chewy, Playpen Sans, Jost */
 
 :root {
 	--primary-bg-1: #fff6dd;
-	--primary-bg-2: #fcdecb;
-	--primary-bg-3: #fbd4b4;
-	--primary-bg-4: #f2c5a1;
-	--primary-bg-5: #e9b78e;
+	--primary-bg-2: #fce7cb;
+	--primary-bg-3: #fbdfb4;
+	--primary-bg-4: #f2cfa1;
+	--primary-bg-5: #e9c98e;
 	--primary-1: #6b544a;
 	--primary-2: #3f2b23;
 	--primary-3: #160b07;
@@ -13,7 +14,5 @@
 
 body {
 	margin: 0;
-    background-color: var(--primary-bg-1);
-	color: var(--primary-3);
-	font-family: sans-serif;
+	font-family: Jost;
 }

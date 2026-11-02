@@ -1,5 +1,4 @@
 .tos_section {
-	background-color: var(--primary-bg-2);
 	width: 100%;
 }
 
@@ -41,6 +40,11 @@ margin: 0
 	border: 3px solid var(--primary-1);
 	border-radius: 8px;
 	padding: 0.2em;
+	transition: 0.1s;
+}
+
+.tos_tldr_button p:hover {
+	transform: scale(1.1)
 }
 
 @keyframes tldrPopup {
@@ -68,4 +72,13 @@ margin: 0
 	margin: 0;
 	text-align: justify;
 	hyphens: auto;
+}
+
+
+
+.tos_horizontal_row {
+	padding: 0 12px
+}
+.tos_horizontal_row hr {
+	border: 1px solid var(--primary-1)
 }

@@ -32,7 +32,9 @@ export function TosSection({title, tldr, content}: SectionProps) {
     // create tldr button and show tldr content if tldrPressed is true
     return (
         <div className="tos_section">
+            <div className='tos_horizontal_row'>
                 <hr />  
+            </div>
             <div className="tos_title">
                 <h1>{title}</h1>
                 <div ref={tldrRef}>
