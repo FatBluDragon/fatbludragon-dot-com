@@ -1,0 +1,15 @@
+.gallery_search_container {
+    padding: 24px;
+    position: fixed;
+    background-color: var(--primary-bg-1);
+    top: 24px;
+    left: 24px;
+    z-index: 10;
+    box-shadow: 0 0 10px black;
+}
+
+.gallery_search_WFW_container {
+    background-color: var(--primary-bg-2);
+    display: flex;
+    justify-content: space-between;
+}
